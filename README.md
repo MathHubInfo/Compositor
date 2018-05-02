@@ -9,3 +9,7 @@ It runs an NGINX server, that delegates to:
 * [the Backend](https://github.com/Uniformal/MMT)
 
 NGINX listens on port 80, and is available as the automated build [mathhub/compositor](https://hub.docker.com/r/mathhub/compositor/) on DockerHub. 
+
+## License
+
+Licensed under AGPL 3.0. 

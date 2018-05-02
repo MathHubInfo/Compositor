@@ -8,6 +8,7 @@ RUN apk add --no-cache nginx curl && \
 ADD conf.d/ /etc/nginx/conf.d/
 ADD snippets.d/ /etc/nginx/snippets.d/
 ADD nginx.conf /etc/nginx/nginx.conf
+ADD LICENSE /etc/nginx/LICENSE
 
 # Run on port 80
 EXPOSE 80
