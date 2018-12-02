@@ -12,5 +12,5 @@ ADD LICENSE /etc/nginx/LICENSE
 
 # Run on port 80
 EXPOSE 80
-HEALTHCHECK --start-period=30s CMD curl -f http://localhost/ || exit 1
+# HEALTHCHECK --start-period=30s CMD curl -f http://localhost/ || exit 1
 CMD ["nginx", "-c", "/etc/nginx/nginx.conf"]
